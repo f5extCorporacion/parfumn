@@ -1,9 +1,8 @@
 
 import './App.css'
-import Spineer from './Spineer';
-import Carga from './carga'
 import { useState, useEffect} from 'react'
-
+import Spineer from './Spineer.jsx';
+import Carga from './Carga.jsx'
 function App() {
   const [loading , setLoading] = useState(false)
 
