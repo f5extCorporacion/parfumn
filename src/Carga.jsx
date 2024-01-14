@@ -1,10 +1,10 @@
 import {CounterStore} from'./store/CounterStore';
 //import shallow from 'zustand/shallow';
 import './App.css'
-import Home from './Home';
-import Profile from './Profile';
-import Porfolio from'./Porfolio';
-import Contacto from './Contacto';
+import Home from './Home.jsx';
+import Profile from './Profile.jsx';
+import Porfolio from'./Porfolio.jsx';
+import Contacto from './Contacto.jsx';
 import React ,{ useState,Suspense,lazy, useEffect } from 'react';
 const video = lazy( ()=>import('https://cadenaser.com/resizer/av8uSQm4LrD27LxLZ3kFIsrIP60=/1200x537/filters:quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/2BXBIY6XXNNJDMIDYTKUN47QZA.gif'))
 import Modal from './Modal';
@@ -20,19 +20,10 @@ const handlerthemeSwitch = ()=>{
   else
   setTheme(false)
 }
-
     /* PRIMERA FORMA DE EXPORTAR VALORES */
   /*const Result= CounterStore( (state) => state.count)*/
    /*Forma rapida de ejecutar  funciones de un objeto para ejecutarlas */
    const { increment , decrementar } = CounterStore();
-  
-  /*
-   <a href="/#login" >
-              <span className='icon'><ion-icon name="battery-charging-outline"></ion-icon></span> 
-             <span className='text icon'>LOGIN</span>
-             </a>
- */
-
     return (
       <div className='Global' style={{ background : theme? '#373737':'white',
       }}>
