@@ -25,7 +25,7 @@ const Contacto = ({tema , setTheme}) => {
         <address className=" justify-start items-start">
           <p className="text-2xl text-slate-900"> <ion-icon name="business-outline"></ion-icon> Cali colombia</p> 
          <p className="text-xl text-slate-900"> <ion-icon name="at-outline"></ion-icon> Email:<br/> 1107050440f@gmail.com.</p>  
-         <ion-icon name="call-outline"></ion-icon> Whatsapp: 318 379 76 86
+         <ion-icon name="call-outline"></ion-icon> Whatsapp: +57 318 379 76 86
         </address>
       </div>
 
@@ -36,7 +36,7 @@ const Contacto = ({tema , setTheme}) => {
            <div className=" flex gap-3 text-center ">
          <a href="https://www.linkedin.com/in/frank-valverde-650161209/"  target="_blank"><ion-icon name="logo-linkedin"  ></ion-icon></a> 
          <a href="https://www.instagram.com/franlimvalverde/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a> 
-          
+          <a href="https://www.youtube.com/@FULLCODE./videos" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a> 
           </div>
 
           </div>   
