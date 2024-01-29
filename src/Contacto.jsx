@@ -33,7 +33,7 @@ const Contacto = ({tema , setTheme}) => {
          <div className="newsdata bg-white rounded-2xl opacity-[0.9] p-5">
             <h2>Redes</h2>
           </div>
-           <div className=" flex gap-3 text-center ">
+           <div className=" flex gap-3 text-center content-center justify-items-center ">
          <a href="https://www.linkedin.com/in/frank-valverde-650161209/"  target="_blank"><ion-icon name="logo-linkedin"  ></ion-icon></a> 
          <a href="https://www.instagram.com/franlimvalverde/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a> 
           <a href="https://www.youtube.com/@FULLCODE./videos" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a> 
