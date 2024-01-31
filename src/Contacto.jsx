@@ -18,8 +18,8 @@ const Contacto = ({tema , setTheme}) => {
    <div className="contacto flex flex-wrap justify-center items-center p-2 gap-10  ">
     
 
-      <div className="datos bg-slate-400 rounded-2xl opacity-[0.9] p-5">
-      <div className="newsdata bg-slate-400 rounded-2xl opacity-[0.9] p-5">
+      <div className="datos  rounded-2xl opacity-[0.9] p-5">
+      <div className="newsdata  rounded-2xl opacity-[0.9] p-5">
             <h2><ion-icon name="bookmarks-outline"></ion-icon> Info Datos.</h2>
           </div>
         <address className=" justify-start items-start">
