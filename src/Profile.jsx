@@ -61,7 +61,7 @@ const Profile = ({ tema, setTheme }) => {
                   <h4>Informacion</h4>
                   <p>Cordial saludo para mi es un gusto que visites mi pagina web , estare  atento a cualquier petición,
                    Dejo Aqui el link para que pueda ser descargado mi cv , para mi sera un gusto atender tus dudas.</p>
-                  <a href="https://drive.google.com/file/d/12RyeqKyURC_CVzDm9XmlufXwx8smaDve/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/10Dyrnef8pm5Oa--ZnNmimjtS0B91avCg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     descargar
                   </a>
                   <ul>
