@@ -23,8 +23,7 @@ const Contacto = ({tema , setTheme}) => {
             <h2><ion-icon name="bookmarks-outline"></ion-icon> Info Datos.</h2>
           </div>
         <address className=" justify-start items-start">
-          <p className="text-2xl text-slate-900"> <ion-icon name="business-outline"></ion-icon> Cali colombia</p> 
-         <p className="text-xl text-slate-900"> <ion-icon name="at-outline"></ion-icon> Email:<br/> 1107050440f@gmail.com.</p>  
+         <p className="text-xl text-slate-900"> <ion-icon name="at-outline"></ion-icon>Email: 1107050440f@gmail.com.</p>  
          <ion-icon name="call-outline"></ion-icon> Whatsapp: +57 318 379 76 86
         </address>
       </div>
