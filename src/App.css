@@ -1340,7 +1340,10 @@ label input:checked ~ span{
   justify-content: center;
   align-items: center;
   left: -200px;
+  color:#605f5f;
+      font-size: 40px;
 }
+    
 /*form*/
 #Contact .marge .contacto .tecni{
   display:flex;
