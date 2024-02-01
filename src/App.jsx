@@ -3,15 +3,16 @@ import './App.css'
 import { useState, useEffect} from 'react'
 import Spineer from './Spineer.jsx';
 import Carga from './Carga.jsx'
+import Swal from 'sweetalert2'
 function App() {
-  const [loading , setLoading] = useState(true)
+  const [loading , setLoading] = useState(false)
 
    useEffect ( ()=>{
     setLoading(false)
 
     setTimeout(()=>{
       setLoading(true)
-    },5000)
+    },3000)
    },[])
 
   return(

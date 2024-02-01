@@ -323,13 +323,14 @@ align-items: center;
   border-radius: 50%;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  
 color: #c3c2c2;
-  
 }
+
+
+
 #Profile .marge .profileContainer .card .box .icon .iconBox ion-icon{
   
-  font-size: 4em;
+  font-size:4em;
   color: #c3c2c2;
     }
 #Profile .marge .profileContainer .card:hover .box .icon .iconBox ion-icon{
@@ -454,6 +455,8 @@ width: 100%;
     color: #111;
     flex-direction: column;
   }
+ 
+
   .logo{
     position: relative;
     color: #fff;
@@ -612,9 +615,8 @@ width: 100%;
  font-size: 15px;
  opacity: 0.9;
   }
-  .contacto .redes a ion-icon:hover{
-    color: #9ea19b;
-  }
+
+  
  
 
 /*si es menor a 700px*/
@@ -636,7 +638,7 @@ width: 100%;
     padding: 1px  25px;
     display: flex;
     align-items: center;
-    z-index: 10000;
+    z-index: 1;
     justify-content:space-between;
   }
   .sp{
@@ -665,7 +667,7 @@ width: 100%;
     padding: 1px  25px;
     display: flex;
     align-items: center;
-    z-index: 10000;
+    z-index: 100;
   }
 
   #Profile .marge .promo{
@@ -678,6 +680,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
 
+    
     .text{
       display: flex;
       flex-direction: column;
@@ -773,6 +776,7 @@ width: 100%;
   }
   header nav button {
     display: flex;
+    justify-content: flex-end;
     color: #c3c2c2;
     border-radius: 20px;
     padding: 10px;
@@ -786,10 +790,10 @@ width: 100%;
   }
  
   header nav button ion-icon{
-    font-size: 30px;
+    font-size: 20px;
     box-shadow:10px 10px 10px #02050c;
-    background: #249eff;
-    border-radius: 20px;
+    background: transparent;
+    border-radius: 5px;
     padding:5px;
   }
   .contacto .redes a ion-icon:hover{
@@ -803,8 +807,249 @@ width: 100%;
 
 
     }
+  
    }
    
+    /*Buttom darkmode*/
+#Profile .marge  label{
+  position: relative;
+  width: 200px;
+  height:80px;
+  background: #3e3e3e;
+  box-shadow: 0 0 0 4px #222;
+  border-radius: 75px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+ label input 
+ {
+  appearance: none;
+}
+label span{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0;
+  border: 1px solid #7d7c7c;
+  border-radius: 50px;
+  background: #878987;
+  padding: 12px;
+  z-index: 90;
+  transition: 1.5s;
+  transform: rotate(3600deg);
+  transform-origin:32px;
+  filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+
+}
+label input:checked ~ span{
+  left: 130px;
+} 
+ label b
+  {
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+  border-radius: 75px;
+  transition: 0.5s;
+  box-shadow:inset 0 0 25px rgba(0,0,0,0.75);
+  opacity: 0.90;
+}
+ label input:checked ~ b 
+ {
+  background: #4a4b4a;
+}
+
+/*fin dark mode*/
+#Contact .merge .contacto {
+  display: flex;
+}
+#Contact .merge .contacto .contac{
+  display: flex;
+  width: 50%;
+}
+
+/*Fotter*/
+.Global footer{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  background: #3586ff;
+  flex-direction: column;
+  color: #000;
+}
+footer p{
+  color: white;
+}
+footer .social{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  flex-wrap: wrap;
+}
+footer .social li{
+list-style: none;
+}
+
+footer .social li a{
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transform: 0.5s;
+  }
+  footer .social li a:hover{
+  transform: translateY(-10px);
+  transition-duration: 2s;
+  }
+
+  footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:  url('./assets/wave.png');
+    background-size: 1000px 100px;
+  }
+  footer .wave#wave1{
+    z-index: 95;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+  }
+  footer .wave#wave2{
+    z-index: 96;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 4s linear infinite;
+  }
+  footer .wave#wave3{
+    z-index: 95;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+  }
+  footer .wave#wave4{
+    z-index: 96;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_02 3s linear infinite;
+  }
+  #Contact .marge .contacto {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap:5px;
+  }
+  #Contact .marge .contacto h1{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+  }
+  /*form*/
+  #Contact .marge .contacto .tecni{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: var(--t);
+    justify-content: center;
+    align-items: center;
+   
+  }
+  #Contact .marge .contacto .tecni form{
+    
+    border-radius: 20px;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  #Contact .marge .contacto .tecni .item{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: var(--tipografia9);
+    color: #a4a3a3;
+    width: 100%;
+   
+  } 
+  #Contact .marge .contacto .tecni .item input{
+    display:flex;
+    border: 1px solid #06c0ef;
+    border-radius: 20px;
+    font-family: var(--tipografia9);
+    background: transparent;
+    color: #868686;
+    font-size: 22px;
+    padding: 5px;
+    width: 100%;
+  }
+  #Contact .marge .contacto .tecni .item select{
+    display:flex;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--tipografia9);
+    background: transparent;
+    color: #868686;
+    border: 1px solid #06c0ef;
+    width: 100%;
+  }
+  #Contact .marge .contacto .tecni .item textarea{
+    display:flex;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--tipografia9);
+    background: transparent;
+    color: #868686;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #06c0ef;
+  }
+  #Contact .marge .contacto .tecni .item button{
+    background: #04c8c8;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100%;
+    color: #eceaea;
+  
+  }
+  @keyframes animatewave {
+    0%{
+      background-position-x: 1000px;
+    }
+    100%{
+      background-position-x: 0px;
+    }
+  }
+  @keyframes animatewave_02 {
+    0%{
+      background-position-x: 0px;
+    }
+    100%{
+      background-position-x: 1000px;
+    }
+  }
+  
+  @keyframes animatewave_03 {
+    0%{
+      background-position-x: 1000px;
+    }
+    100%{
+      background-position-x: 1000px;
+    }
+  }
+
+
 
 }
 
@@ -833,8 +1078,6 @@ width: 100%;
          color:#696a6a;
          font-size: 20px;
          padding: 3rem;
-  
-  
     }
     #Profile .marge .promo{
       width: 100%;
@@ -936,6 +1179,15 @@ width: 100%;
     
       
     }
+    #Profile .marge h1{
+      color:#605f5f;
+      font-size: 30px;
+    }
+    #Message .marge h1{
+      color:#605f5f;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
       header{
       position: fixed;
       width: 100%;
@@ -955,7 +1207,7 @@ width: 100%;
       display: flex;
       justify-content: space-between;
      
-      z-index: 100000; 
+      z-index: 1000000; 
     }
     .marge  header nav{
       display: flex;
@@ -1025,6 +1277,247 @@ body{
     .contacto .redes a ion-icon:hover{
       color: #9ea19b;
     }
+    /*Buttom darkmode*/
+#Profile .marge  label{
+  position: relative;
+  width: 200px;
+  height:80px;
+  background: #3e3e3e;
+  box-shadow: 0 0 0 4px #222;
+  border-radius: 75px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+ label input 
+ {
+  appearance: none;
+}
+label span{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0;
+  border: 1px solid #151515;
+  background: #878987;
+  border-radius: 50px;
+  padding: 12px;
+  z-index: 1;
+  transition: 1.5s;
+  transform: rotate(360deg);
+  transform-origin:32px;
+  filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+
+}
+label input:checked ~ span{
+  left: 130px;
+} 
+ label b
+  {
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+  border-radius: 75px;
+  transition: 0.5s;
+  box-shadow:inset 0 0 25px rgba(0,0,0,0.75);
+  opacity: 0.90;
+}
+ label input:checked ~ b 
+ {
+  background: #4a4b4a;
+}
+/*fin dark mode*/
+#Contact .marge .contacto {
+  display:flex;
+  margin-bottom: 100px;
+  gap:5px;
+}
+#Contact .marge .contacto h1{
+  display:flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: -200px;
+}
+/*form*/
+#Contact .marge .contacto .tecni{
+  display:flex;
+  width: 100%;
+  flex-direction: column;
+  font-family: var(--t);
+  justify-content: center;
+  align-items: center;
+ 
+}
+#Contact .marge .contacto .tecni form{
+  
+  border-radius: 20px;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+#Contact .marge .contacto .tecni .item{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: var(--tipografia9);
+  color: #a4a3a3;
+  width: 100%;
+ 
+} 
+#Contact .marge .contacto .tecni .item input{
+  display:flex;
+  border: 1px solid #06c0ef;
+  border-radius: 20px;
+  font-family: var(--tipografia9);
+  background: transparent;
+  color: #868686;
+  font-size: 22px;
+  padding: 5px;
+  width: 100%;
+}
+#Contact .marge .contacto .tecni .item select{
+  display:flex;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-family: var(--tipografia9);
+  background: transparent;
+  color: #868686;
+  border: 1px solid #06c0ef;
+  width: 100%;
+}
+#Contact .marge .contacto .tecni .item textarea{
+  display:flex;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-family: var(--tipografia9);
+  background: transparent;
+  color: #868686;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #06c0ef;
+}
+#Contact .marge .contacto .tecni .item button{
+  background: #04c8c8;
+  padding: 5px;
+  border-radius: 20px;
+  width: 100%;
+  color: #eceaea;
+
+}
+/**fin form/
+
+#Contact .marge .contacto .tecni {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:45%;
+}
+
+#Contact .marge .contacto .tecni p{
+font-family:'Courier New', Courier, monospace;
+
+
+}
+/*Fotter*/
+.Global footer{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  background: #3586ff;
+  flex-direction: column;
+  color: #000;
+}
+footer p{
+  color: white;
+}
+footer .social{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+footer .social li{
+list-style: none;
+}
+
+footer .social li a{
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transform: 0.5s;
+  }
+  footer .social li a:hover{
+  transform: translateY(-10px);
+  transition-duration: 2s;
   }
 
+  footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:  url('./assets/wave.png');
+    background-size: 1000px 100px;
+  }
+  footer .wave#wave1{
+    z-index: 95;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+  }
+  footer .wave#wave2{
+    z-index: 96;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 4s linear infinite;
+  }
+  footer .wave#wave3{
+    z-index: 95;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+  }
+  footer .wave#wave4{
+    z-index: 96;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_02 3s linear infinite;
+  }
+  @keyframes animatewave {
+    0%{
+      background-position-x: 1000px;
+    }
+    100%{
+      background-position-x: 0px;
+    }
+  }
+  @keyframes animatewave_02 {
+    0%{
+      background-position-x: 0px;
+    }
+    100%{
+      background-position-x: 1000px;
+    }
+  }
+  
+  @keyframes animatewave_03 {
+    0%{
+      background-position-x: 1000px;
+    }
+    100%{
+      background-position-x: 1000px;
+    }
+  }
+
+  }
 
