@@ -241,12 +241,12 @@ section {
 }
 
 #Profile .marge .card:nth-child(2){
-  background: var(--clr2);
+  background: var(--clr1);
 }
 
 
 #Profile .marge .card:nth-child(3){
-  background: var(--clr3);
+  background: var(--clr1);
   
 }
 #Profile .marge .profileContainer .card:hover .box .icon{
@@ -302,7 +302,7 @@ align-items: center;
   background:transparent;
   border-top-left-radius: 30px;
  /*transform: rotate(90deg);*/
-  box-shadow: -5px -5px 0 5px var(--clr2);
+  box-shadow: -5px -5px 0 5px var(--clr1);
 }
 #Profile .marge .profileContainer .card3 .box .icon::before{
   content: '';
@@ -314,7 +314,7 @@ align-items: center;
   background:transparent;
   border-top-left-radius: 30px;
  /*transform: rotate(90deg);*/
-  box-shadow: -5px -5px 0 5px var(--clr3);
+  box-shadow: -5px -5px 0 5px var(--clr1);
 }
 #Profile .marge .profileContainer .card .box .icon .iconBox{
   position: absolute;
