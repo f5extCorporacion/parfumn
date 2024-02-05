@@ -239,7 +239,7 @@ section {
   border-top-left-radius: 60px;
   border-bottom-right-radius: 50%;
 }
-
+/*Colores de los cards tener encuenta bg de html */
 #Profile .marge .card:nth-child(2){
   background: var(--clr1);
 }
@@ -249,6 +249,7 @@ section {
   background: var(--clr1);
   
 }
+  /*fin colores */
 #Profile .marge .profileContainer .card:hover .box .icon{
 width: 100%;
 justify-content: center;
