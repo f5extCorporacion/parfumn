@@ -107,7 +107,7 @@ const Profile = ({ tema, setTheme }) => {
         </div>
         <div className="card card2">
           <div className="box">
-            <div className="icon bg-[#ff1f6b]">
+            <div className="icon bg-[#249eff]">
               <div className="iconBox">
               <ion-icon name="logo-angular"></ion-icon>
               </div>
@@ -121,7 +121,7 @@ const Profile = ({ tema, setTheme }) => {
 
         <div className="card card3">
           <div className="box">
-            <div className="icon bg-[#98ff21]">
+            <div className="icon bg-[#249eff]">
               <div className="iconBox   ">
               <ion-icon name="logo-windows"></ion-icon>
               </div>
