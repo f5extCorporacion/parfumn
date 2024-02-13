@@ -74,8 +74,7 @@ const Profile = ({ tema, setTheme }) => {
 
                 <div className="icons">
                   <h4>Informacion</h4>
-                  <p>Cordial saludo para mi es un gusto que visites mi pagina web , estare  atento a cualquier petición,
-                   Dejo Aqui el link para que pueda ser descargado mi cv , para mi sera un gusto atender tus dudas.</p>
+                  <p>Desarrollador Full-stack con experiencia en JavaScript, ReactJs y bases de datos.Especializado en diseño y desarrollo web. Capaz de colaborar eficientemente en equipos multidisciplinarios. Comprometido con el aprendizaje continuo y la adopción de tecnologías emergentes. </p>
                   <a href="https://drive.google.com/file/d/1Ju0QMRrSIBhiTawbQk079YGZhNx6PfFk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     descargar
                   </a>
