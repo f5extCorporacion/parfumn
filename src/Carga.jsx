@@ -33,7 +33,7 @@ const handlerthemeSwitch = ()=>{
    /*Forma rapida de ejecutar  funciones de un objeto para ejecutarlas */
    const { increment , decrementar } = CounterStore();
     return (
-      <div className='Global' style={{ background : theme? '#373737':'white',
+      <div className='Global' style={{ background : theme? 'white':'#373737',
       }}>
         <div className="responsive">
         {
