@@ -466,7 +466,18 @@ color: #c3c2c2;
       align-items: center;
       margin-top: 110px;
     }
-
+#Home{
+display:flex;
+justify-content: center;
+padding: 0;
+align-items: center;
+background: url('https://maximmaeder.com/wp-content/uploads/2022/07/code.gif');
+background-repeat: none;
+background-position: center center;
+background-size: cover;
+width: 100%;
+  
+}
     #Message .marge{
       display: flex;
       flex-direction: column;
@@ -664,7 +675,7 @@ display:flex;
 justify-content: center;
 padding: 0;
 align-items: center;
-background: url('https://maximmaeder.com/wp-content/uploads/2022/07/code.gif');
+background: url('https://i.gifer.com/24Br.gif');
 background-repeat: none;
 background-position: center center;
 background-size: cover;
@@ -1074,7 +1085,7 @@ display:flex;
 justify-content: center;
 padding: 0;
 align-items: center;
-background: url('https://i.gifer.com/24Br.gif');
+background: url('https://maximmaeder.com/wp-content/uploads/2022/07/code.gif');
 background-repeat: none;
 background-position: center center;
 background-size: cover;
