@@ -7,6 +7,7 @@ const Modal = ({setModal , moda}) => {
   })
   const hand =()=>{
     sounde.play();
+    setModal(false)
  }
   return (
     <div className='modaScrem fixed inset-0 bg-black  bg-opacity-30 backdrop-blur-sm flex justify-center items-center '>
