@@ -49,9 +49,9 @@ const Profile = ({ tema, setTheme }) => {
 
 
         
-        {tema ? <h1 className='text-slate-400'>
+        {tema ? <h1 className='text-slate-400 text-2xl'>
           <ion-icon name="planet-outline"></ion-icon> NOSOTROS.
-        </h1> : <h1 className='text-blue-300'>
+        </h1> : <h1 className='text-blue-300 text-2xl'>
           <ion-icon name="planet-outline"></ion-icon> NOSOTROS.
         </h1>}
 
