@@ -48,10 +48,11 @@ const Profile = ({ tema, setTheme }) => {
         <br/>
 
 
-        {tema ? <h1 className='text-slate-300'>
-          <ion-icon name="planet-outline"></ion-icon> PROFILE.
-        </h1> : <h1 className='text-blue-500'>
-          <ion-icon name="planet-outline"></ion-icon> PROFILE.
+        
+        {tema ? <h1 className='text-slate-400'>
+          <ion-icon name="planet-outline"></ion-icon> NOSOTROS.
+        </h1> : <h1 className='text-blue-300'>
+          <ion-icon name="planet-outline"></ion-icon> NOSOTROS.
         </h1>}
 
         {/**estudios y mas */}
@@ -74,7 +75,7 @@ const Profile = ({ tema, setTheme }) => {
 
                 <div className="icons">
                   <h4>Informacion</h4>
-                  <p>Desarrollador de software con más de 8 años de experiencia en la industria tecnológica. Especializado en Java, Python y JavaScript, destaca en el diseño, desarrollo y mantenimiento de sistemas complejos. Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras, Juan ha liderado exitosamente proyectos desde su concepción hasta su implementación.  </p>
+                  <p>Desarrollador de software con más de 2 años de experiencia en la industria tecnológica. Especializado en Java, Python y JavaScript, destaca en el diseño, desarrollo y mantenimiento de sistemas complejos. Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras, Juan ha liderado exitosamente proyectos desde su concepción hasta su implementación.  </p>
                   <a href="https://drive.google.com/file/d/10g5uNS5ZYiXolTI-iAMqagOohZEMd0tK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     descargar
                   </a>
