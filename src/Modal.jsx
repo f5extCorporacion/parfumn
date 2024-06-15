@@ -20,7 +20,7 @@ const Modal = ({setModal , moda}) => {
                     <span className='text icon'>HOME</span> </a>
                     <a href="#Profile" onClick={hand} >
                       <span className='icon'><ion-icon name="planet-outline"></ion-icon></span>
-                    <span className='text icon'>PROFILE</span></a>
+                    <span className='text icon'>NOSOTROS</span></a>
                     <a href="#Message" onClick={hand} >
                       <span className='icon'><ion-icon name="chatbubble-outline"></ion-icon></span>
                     <span className='text icon'> PORFOLIO</span> </a>
