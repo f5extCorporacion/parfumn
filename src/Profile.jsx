@@ -137,7 +137,7 @@ const Profile = ({ tema, setTheme }) => {
       <div className="contador flex gap-5 text-slate-300 flex-col" >
            <div className="flex Skillglov">
                     <div className="containerSkills">
-                                <h1 className="title-text">skills programación</h1>
+                                <h1 className="title-text ">skills programación</h1>
                                 <div className="skill-box">
                                     <span className="title">react</span>
                                         <div className="skill-bar"> 
@@ -147,7 +147,7 @@ const Profile = ({ tema, setTheme }) => {
                                         </div>
                                 </div>
                                 <div className="skill-box">
-                                    <span className="title">Angular</span>
+                                    <span className="title ">Angular</span>
                                         <div className="skill-bar"> 
                                             <span className="skill-per css"> 
                                                 <span className="tooltip">60%</span>
@@ -164,7 +164,7 @@ const Profile = ({ tema, setTheme }) => {
                                 </div>
                     </div>
                     <div className="containerSkills">
-                                <h1 className="title-text">Otros Lenguajes</h1>
+                                <h1 className="title-text  text-slate-300">Otros Lenguajes</h1>
                                 <div className="skill-box">
                                     <span className="title">C#</span>
                                         <div className="skill-bar"> 
