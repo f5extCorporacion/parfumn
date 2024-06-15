@@ -63,10 +63,10 @@ const Profile = ({ tema, setTheme }) => {
       <div className="text">
                   <h4>Estudios.</h4>
                   <ul>
-                    <li onMouseEnter={handlerar} >Academlo <br /><pre>Fullstack developer </pre></li>
-                    <li onMouseEnter={handlerar} >Sena <br /><pre>Tecnico en Desarrollo de software </pre></li>
-                    <li onMouseEnter={handlerar} >Comfenalco valle <br /><pre>seminario de negocios y ventas </pre></li>
                      <li onMouseEnter={handlerar} >Ingenieria informatica   <br /><pre> cursando </pre></li>
+                    <li onMouseEnter={handlerar} >Fullstack developer <br /><pre>Academlo </pre></li>
+                    <li onMouseEnter={handlerar} >Desarrollo de java <br /><pre>el sena </pre></li>
+                    <li onMouseEnter={handlerar} >Comfenalco valle <br /><pre>seminario de negocios y ventas </pre></li>
                   </ul>
 
                   
@@ -112,7 +112,7 @@ const Profile = ({ tema, setTheme }) => {
               </div>
             </div>
             <div className="conent">
-              <h3>Angular </h3>
+              <h3>Back-end </h3>
               <p> Creacion de apis que permiten registro de informacion y su administración.</p>
             </div>
           </div>
