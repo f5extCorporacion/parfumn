@@ -49,7 +49,7 @@ const handlerthemeSwitch = ()=>{
   
              <a href="#Profile" onClick={handlera} >
               <span className='icon'><ion-icon name="planet-outline"></ion-icon></span>
-             <span className='text icon'>PROFILE</span></a>
+             <span className='text icon'>NOSOTROS</span></a>
   
              <a href="#Message" onClick={handlera} >
               <span className='icon'><ion-icon name="chatbubble-outline"></ion-icon></span>
@@ -81,9 +81,8 @@ const handlerthemeSwitch = ()=>{
              <div className="wave" id='wave4'></div>
           </div>
           <ul  className='social'>
-            <li><a href="https://www.youtube.com/channel/UC5I30AmdB7Z1DNrO2MOh56A" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-youtube"></ion-icon> </a> </li>
             <li><a href="https://www.instagram.com/franlimvalverde/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon> </a> </li>
-            <li><a href="https://www.linkedin.com/in/franklim-mu%C3%B1oz-valverde-650161209/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a> </li>
+            <li><a href="https://www.linkedin.com/in/franklim-de-jesus-mu%C3%B1oz-valverde-60255b311/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a> </li>
           </ul>
           <p>@2024 Derechos Fullstack developer Franklim mv| Porfolio Personal</p>
         </footer>
