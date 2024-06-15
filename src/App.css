@@ -348,6 +348,7 @@ color: #c3c2c2;
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 20px;
+     flex-wrap: wrap;
 }
   .containerSkills{
     position: relative;
@@ -357,7 +358,7 @@ color: #c3c2c2;
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 20px;
-    flex-wrap: wrap;
+   
   }
   .containerSkills .skill-box{
     width: 100%;
@@ -954,6 +955,7 @@ label input:checked ~ span{
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 20px;
+     flex-wrap: wrap;
 }
   .containerSkills{
     position: relative;
@@ -963,7 +965,7 @@ label input:checked ~ span{
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 20px;
-    flex-wrap: wrap;
+    
   }
   .containerSkills .skill-box{
     width: 100%;
