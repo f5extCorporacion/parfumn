@@ -54,9 +54,9 @@ const [comentarios , setComentarios]= useState('');
  
   
    <div className="contacto">
-   {tema?  <h1 className='text-slate-400'> 
+   {tema?  <h1 className='text-slate-400 text-3xl'> 
               <ion-icon name="planet-outline"></ion-icon> CONTACTO 
-              </h1>:<h1 className='text-blue-700'> 
+              </h1>:<h1 className='text-blue-700  text-slate-400 text-3xl'> 
               <ion-icon name="planet-outline"></ion-icon> CONTACTO 
               </h1>} 
 
@@ -64,7 +64,7 @@ const [comentarios , setComentarios]= useState('');
           
               <form  onSubmit = { envioHandler }>
               <div className="item">
-                  <label htmlFor="name">Empresa</label>
+                  <label htmlFor="name">Nombre</label>
                   <input type="text"
                   value={empresa}
                   onChange={(e)=>setEmpresa(e.target.value)} 
