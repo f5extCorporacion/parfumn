@@ -135,14 +135,64 @@ const Profile = ({ tema, setTheme }) => {
       </div>
 
       <div className="contador flex gap-5 text-slate-300 flex-col" >
-        <h4>Contador</h4>
-        <div className="flex gap-5">
-          <button className='w-10 h-10 border text-blue-500  border-slate-500 rounded-xl'  onClick={() => decrementar(1)} > - </button>
-
-          <div className="num text-blue-500 text-5xl">{count} </div>
-          <button className='w-10 h-10 border text-blue-500  border-slate-500 rounded-xl'  onClick={() => increment(1)}> + </button>
+           <div className="flex Skillglov">
+                    <div className="containerSkills">
+                                <h1 className="title-text">skills programación</h1>
+                                <div className="skill-box">
+                                    <span className="title">react</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per html"> 
+                                                <span className="tooltip">80%</span>
+                                            </span>
+                                        </div>
+                                </div>
+                                <div className="skill-box">
+                                    <span className="title">Angular</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per css"> 
+                                                <span className="tooltip">60%</span>
+                                            </span>
+                                        </div>
+                                </div>
+                                <div className="skill-box">
+                                    <span className="title">vue</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per vue"> 
+                                                <span className="tooltip">95%</span>
+                                            </span>
+                                        </div>
+                                </div>
+                    </div>
+                    <div className="containerSkills">
+                                <h1 className="title-text">Otros Lenguajes</h1>
+                                <div className="skill-box">
+                                    <span className="title">C#</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per html"> 
+                                                <span className="tooltip">80%</span>
+                                            </span>
+                                        </div>
+                                </div>
+                                <div className="skill-box">
+                                    <span className="title">Javascript</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per css"> 
+                                                <span className="tooltip">60%</span>
+                                            </span>
+                                        </div>
+                                </div>
+                                <div className="skill-box">
+                                    <span className="title">Java</span>
+                                        <div className="skill-bar"> 
+                                            <span className="skill-per vue"> 
+                                                <span className="tooltip">95%</span>
+                                            </span>
+                                        </div>
+                                </div>
         </div>
+       </div>
       </div>
+      
       <div className='scroll  flex    ' >
         {/*Parte donde ponemos cards y fondo */}
         <div>
