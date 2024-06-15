@@ -7,6 +7,7 @@ import { db } from'./config/firebase.js';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import { Proyectos } from './ProyectosBase.jsx';
 
 
 
@@ -50,11 +51,16 @@ const Porfolio = ({tema , setTheme}) => {
               </h1>}
                 <hr /> 
     <div className="porfolio  ">
-    {
-      products.map((sd)=>   <div className="boxporfolio bg-green-500">
-      <a href={sd.link}  className='bg-green-500' target="_blank"> 
-      <h2><ion-icon name="triangle-outline"></ion-icon>{sd.titulo} </h2></a>
-      </div>)
+     {
+      Proyectos.map((proyect)=>(
+        <div className="boxporfolio bg-green-500" key={proyect}>
+        <a href={proyect.url}  className='bg-green-500' target="_blank"> 
+        <ion-icon name="logo-css3"></ion-icon>
+        <h2><ion-icon name="logo-github"></ion-icon> {proyect.name} </h2>
+        </a>
+        </div>
+      ))
+     
     }
        
     </div>
