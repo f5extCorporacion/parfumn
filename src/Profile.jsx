@@ -48,9 +48,9 @@ const Profile = ({ tema, setTheme }) => {
         <br/>
 
 
-        {tema ? <h1 className='text-slate-400'>
+        {tema ? <h1 className='text-slate-300'>
           <ion-icon name="planet-outline"></ion-icon> PROFILE.
-        </h1> : <h1 className='text-blue-700'>
+        </h1> : <h1 className='text-blue-500'>
           <ion-icon name="planet-outline"></ion-icon> PROFILE.
         </h1>}
 
@@ -95,12 +95,12 @@ const Profile = ({ tema, setTheme }) => {
           <div className="box">
             <div className="icon bg-[#249eff]">
               <div className="iconBox">
-                <ion-icon name="logo-react"></ion-icon>
+               <ion-icon name="globe"></ion-icon>
               </div>
             </div>
             <div className="conent">
-              <h3>React</h3>
-              <p> typescript , javascript ,eventos, bases de datos, creacion sitios dimanicos.</p>
+              <h3>Front-End</h3>
+              <p> creacion de sitios dimanicos con diseños esteticos.</p>
             </div>
           </div>
         </div>
@@ -108,12 +108,12 @@ const Profile = ({ tema, setTheme }) => {
           <div className="box">
             <div className="icon bg-[#249eff]">
               <div className="iconBox">
-              <ion-icon name="logo-angular"></ion-icon>
+              <ion-icon name="server"></ion-icon>
               </div>
             </div>
             <div className="conent">
               <h3>Angular </h3>
-              <p> typescript , javascript ,eventos, bases de datos, creacion sitios dimanicos.</p>
+              <p> Creacion de apis que permiten registro de informacion y su administración.</p>
             </div>
           </div>
         </div>
@@ -122,24 +122,24 @@ const Profile = ({ tema, setTheme }) => {
           <div className="box">
             <div className="icon bg-[#249eff]">
               <div className="iconBox   ">
-              <ion-icon name="logo-windows"></ion-icon>
+             <ion-icon name="logo-windows"></ion-icon>
               </div>
             </div>
             <div className="conent">
-              <h3>Nodejs, firebase, postgres ,Sql</h3>
-              <p> Creacion de servicios , crud,  todo  relacionado con back-end.</p>
+               <h3>Desktop</h3>
+              <p> Programas sencillos en c#  y java aplicando los princios de programacón.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="contador flex gap-5 text-slate-600 flex-col" >
+      <div className="contador flex gap-5 text-slate-300 flex-col" >
         <h4>Contador</h4>
         <div className="flex gap-5">
-          <button className='w-10 h-10 border border-slate-500 rounded-xl'  onClick={() => decrementar(1)} > - </button>
+          <button className='w-10 h-10 border text-blue-500  border-slate-500 rounded-xl'  onClick={() => decrementar(1)} > - </button>
 
-          <div className="num text-[50px] text-4xl">{count} </div>
-          <button className='w-10 h-10 border border-slate-500 rounded-xl'  onClick={() => increment(1)}> + </button>
+          <div className="num text-blue-500 text-5xl">{count} </div>
+          <button className='w-10 h-10 border text-blue-500  border-slate-500 rounded-xl'  onClick={() => increment(1)}> + </button>
         </div>
       </div>
       <div className='scroll  flex    ' >
@@ -149,8 +149,8 @@ const Profile = ({ tema, setTheme }) => {
           <span className='border border-green-900' onMouseEnter={handlerar}>Css</span>
           <span className='border border-green-900' onMouseEnter={handlerar}>Javascript</span>
           <span className='border border-green-900' onMouseEnter={handlerar}>React</span>
-          <span className='border border-green-900' onMouseEnter={handlerar}>Figma</span>
-          <span className='border border-green-900' onMouseEnter={handlerar}>Photoshop</span>
+          <span className='border border-green-900' onMouseEnter={handlerar}>c#</span>
+          <span className='border border-green-900' onMouseEnter={handlerar}>Phython</span>
           <span className='border border-green-900' onMouseEnter={handlerar}>Angular</span>
           <span className='border border-white-900' onMouseEnter={handlerar}>Html</span>
           <span className='border border-white-900' onMouseEnter={handlerar}>Css</span>
