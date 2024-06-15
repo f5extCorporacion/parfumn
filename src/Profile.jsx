@@ -74,8 +74,8 @@ const Profile = ({ tema, setTheme }) => {
 
                 <div className="icons">
                   <h4>Informacion</h4>
-                  <p>Desarrollador Full-stack con experiencia en JavaScript, ReactJs y bases de datos.Especializado en diseño y desarrollo web. Capaz de colaborar eficientemente en equipos multidisciplinarios. Comprometido con el aprendizaje continuo y la adopción de tecnologías emergentes. </p>
-                  <a href="https://drive.google.com/file/d/1Ju0QMRrSIBhiTawbQk079YGZhNx6PfFk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <p>Desarrollador de software con más de 8 años de experiencia en la industria tecnológica. Especializado en Java, Python y JavaScript, destaca en el diseño, desarrollo y mantenimiento de sistemas complejos. Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras, Juan ha liderado exitosamente proyectos desde su concepción hasta su implementación.  </p>
+                  <a href="https://drive.google.com/file/d/10g5uNS5ZYiXolTI-iAMqagOohZEMd0tK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     descargar
                   </a>
                   <ul>
