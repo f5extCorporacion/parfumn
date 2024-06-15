@@ -45,11 +45,11 @@ const Porfolio = ({tema , setTheme}) => {
     <>
     
     {tema?  <h1 className='text-slate-400'> 
-              <ion-icon name="planet-outline"></ion-icon> PORFOLIO
-              </h1>:<h1 className='text-blue-700'> 
+              <ion-icon name="planet-outline text-slate-400 text-3xl"></ion-icon> PORFOLIO
+              </h1>:<h1 className='text-blue-700  text-slate-400 text-3xl'> 
               <ion-icon name="planet-outline"></ion-icon> PORFOLIO
               </h1>}
-                <hr /> 
+                <br /> 
     <div className="porfolio  ">
      {
       Proyectos.map((proyect)=>(
