@@ -24,12 +24,20 @@ export const Proyectos = [
       categoria: "front",
     },
     {
-      id: 4,
+        id: 4,
+         name: "Api Pokemon",
+         url:"https://pokemon-api-six-gamma.vercel.app/",
+         detalle: "crud creado con react, tailwindcss, html, css.",
+         categoria: "front",
+    },
+    {
+      id: 5,
       name: "Alterno",
       url: "https://www.bombomsexxx.com/fotosPorfolio/muestras/insigni/",
       img: "https://images.vexels.com/media/users/3/142887/isolated/preview/fc58c5ffb8c2e33fc3e15a2453189825-logotipo-de-empresa-logistica-en-crecimiento.png",
       detalle: "Card modulable responsive creado con html y css codigo limpio",
       categoria: "front",
     },
+    
   ];
   
