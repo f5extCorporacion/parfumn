@@ -123,7 +123,6 @@ section {
     align-items: center;
     text-align: center;
     color: #000;
-   
     background: #bebcbc;
     display: flex;
     gap: 1rem;
@@ -183,21 +182,25 @@ section {
     background: #515050;
     color: white;
     font-family: var(--tipografiaplaygen);
+    transition:0.8s;
   }
   #Profile .marge article .perfil .detalles ul li:nth-child(2) {
     background: #515050;
     color: white;
     font-family: var(--tipografiaplaygen);
+    transition:0.8s;
   }
   #Profile .marge article .perfil .detalles ul li:nth-child(3) {
     background: #515050;
     color: white;
     font-family: var(--tipografiaplaygen);
+    transition:0.8s;
   }
   #Profile .marge article .perfil .detalles ul li:nth-child(4) {
     background: #515050;
     color: white;
     font-family: var(--tipografiaplaygen);
+    transition:0.8s;
   }
   /* inicio Cards animados*/
   #Profile .marge .profileContainer{
@@ -702,7 +705,9 @@ color: #c3c2c2;
     align-items: center;
     font-size: 12px;
     padding: 5rem;
-    justify-content: center;}
+    justify-content: center;
+   transition:0.8s;
+  }
   header {
     position: fixed;
     width: 100%;
@@ -787,6 +792,7 @@ width: 100%;
       text-align: justify;
       text-decoration: dashed;
       color: #c9d7cc;
+      transition:0.8s;
     
     }
     .text ul li pre{
