@@ -128,7 +128,7 @@ const Profile = ({ tema, setTheme }) => {
             </div>
             <div className="conent">
                <h3>Desktop</h3>
-              <p> Programas sencillos en c#  y java aplicando los princios de programacón.</p>
+              <p> Programas sencillos en c#  y java aplicando los principios de programacón.</p>
             </div>
           </div>
         </div>
