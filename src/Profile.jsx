@@ -77,7 +77,8 @@ const Profile = ({ tema, setTheme }) => {
                   <h4>Informacion</h4>
                   <p>Desarrollador de software con más de 2 años de experiencia en la industria tecnológica. Especializado en Java,
                     Python y JavaScript, destaca en el diseño, desarrollo y mantenimiento de sistemas complejos.
-                    Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras,  liderado exitosamente proyectos desde su concepción hasta su implementación. +57 302 213 03 74  </p>
+                    Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras, 
+                    contacto: +57 302 213 03 74  </p>
                   <a href="https://drive.google.com/file/d/11X_-ql0XQesHQn1zGJLVMSdYuqb4xx_y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     descargar
                   </a>
