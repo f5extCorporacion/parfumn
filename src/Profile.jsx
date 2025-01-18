@@ -79,9 +79,7 @@ const Profile = ({ tema, setTheme }) => {
                     Python y JavaScript, destaca en el diseño, desarrollo y mantenimiento de sistemas complejos.
                     Conocido por sus habilidades para resolver problemas y encontrar soluciones innovadoras, 
                     contacto: +57 302 213 03 74  </p>
-                  <a href="https://drive.google.com/file/d/11X_-ql0XQesHQn1zGJLVMSdYuqb4xx_y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    descargar
-                  </a>
+                 
                   <ul>
                     <li><ion-icon name="logo-css3"></ion-icon></li>
                     <li><ion-icon name="logo-javascript"></ion-icon></li>
